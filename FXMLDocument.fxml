@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="747.0" prefWidth="1141.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryjavafx.FXMLDocumentController">
+   <children>
+      <ListView fx:id="list" layoutX="73.0" layoutY="139.0" prefHeight="242.0" prefWidth="258.0" />
+      <AnchorPane layoutX="455.0" layoutY="72.0" prefHeight="412.0" prefWidth="655.0">
+         <children>
+            <Label fx:id="L1" layoutX="75.0" layoutY="58.0" text="Java How To Program (Early Objects))" />
+            <Button fx:id="B1" layoutX="388.0" layoutY="52.0" mnemonicParsing="false" onAction="#B1Click" text="Borrow" textFill="#58dd1a" />
+            <Button fx:id="R1" onAction="#R1Click"  layoutX="519.0" layoutY="52.0" mnemonicParsing="false" text="Return" textFill="#da0b0b" />
+            <Label fx:id="L2" layoutX="75.0" layoutY="134.0" text="Rise of the Robots" />
+            <Label fx:id="L3" layoutX="75.0" layoutY="222.0" text="Code Complete" />
+            <Label fx:id="L4" layoutX="75.0" layoutY="320.0" text="The Pragmatic Programmer" />
+            <Button fx:id="B2" onAction="#B2Click"  layoutX="388.0" layoutY="128.0" mnemonicParsing="false" text="Borrow" textFill="#19dd29" />
+            <Button fx:id="R2" onAction="#R2Click"  layoutX="519.0" layoutY="133.0" mnemonicParsing="false" text="Return" textFill="#d00909" />
+            <Button fx:id="B3" onAction="#B3Click"  layoutX="388.0" layoutY="216.0" mnemonicParsing="false" text="Borrow" textFill="#29cd1b" />
+            <Button fx:id="R3" onAction="#R3Click"  layoutX="519.0" layoutY="216.0" mnemonicParsing="false" text="Return" textFill="#bf0e0e" />
+            <Button fx:id="B4" onAction="#B4Click"   layoutX="397.0" layoutY="314.0" mnemonicParsing="false" text="Borrow" textFill="#16cd25" />
+            <Button fx:id="R4" onAction="#R4Click"  layoutX="526.0" layoutY="314.0" mnemonicParsing="false" text="Return" textFill="#d71010" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="95.0" layoutY="91.0" prefHeight="27.0" prefWidth="203.0" text="List of Books Available" />
+   </children>
+</AnchorPane>
